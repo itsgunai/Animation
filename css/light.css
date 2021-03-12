@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    
+    text-align: center;
+}
+
+svg {
+	width:60%;
+	height: 60%;
+   
+
+}
+ 
+
+ #fish {
+    animation: fish 3s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+  
+}
+
+@keyframes fish {
+	0% {
+		opacity: 1;
+		transform: translateX(-15px)
+	}
+	50% {
+		transform: translateX(10px);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(-15px);
+	}
+}
+
+
+
+#lights {
+    animation: lights 5s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+  
+}
+
+
+@keyframes lights {
+	0% {
+		opacity: 0;
+	
+	}
+    25% {opacity: 1;}
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+	
+	100% {
+		opacity: 0;
+	
+	}
+}

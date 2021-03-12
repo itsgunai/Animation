@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+}
+
+svg {
+	width:60%;
+	height: 60%;
+
+}
+
+#facebook {
+    animation: facebook 7s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+  
+}
+
+@keyframes facebook {
+	0% {
+		opacity: 1;
+		transform: translateX(-200px)
+	}
+	50% {
+		transform: translateX(30px);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(-200px);
+	}
+}
+
+
+
+#linkedin {
+    animation: linkedin 5s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+
+@keyframes linkedin {
+	0% {
+		opacity: 1;
+		transform: translateX(-200px)
+	}
+	50% {
+		transform: translateX(30px);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(-200px);
+	}
+}
+
+#youtube {
+    animation: youtube 7s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes youtube {
+	0% {
+		opacity: 1;
+		transform: translateX(200px)
+	}
+	50% {
+		transform: translateX(-30px);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(200px);
+	}
+}
+
+
+#instagram {
+    animation: instagram 7s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes instagram {
+	0% {
+		opacity: 1;
+		transform: translateX(200px)
+	}
+	50% {
+		transform: translateX(-30px);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(200px);
+	}
+}
+
+
+#twitter {
+    animation: twitter 4s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+
+@keyframes twitter {
+	0% {
+		opacity: 1;
+		transform: translateX(-150px)
+	}
+	50% {
+		transform: translateX(20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(-150px);
+	}
+}
+
+
+#whatsapp {
+    animation: whatsapp 5s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+
+@keyframes whatsapp {
+	0% {
+		opacity: 1;
+		transform: translateX(-200px)
+	}
+	50% {
+		transform: translateX(50px);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(-200px);
+	}
+}
+
+
+#behance {
+    animation: behance 6s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes behance {
+	0% {
+		opacity: 1;
+		transform: translateX(-200px)
+	}
+	50% {
+		transform: translateX(50px);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(-200px);
+	}
+}
