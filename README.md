@@ -1,2 +1,2 @@
 # Animation
-Animation with CSS and Figma
+Animations with CSS
